@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css?family=Coda|Knewave");
+@import url("https://fonts.googleapis.com/css2?family=Comforter&family=Neonderthaw&family=Supermercado+One&display=swap");
+
+:root {
+  --color1 : #000d1d;
+  --color2 : #0e3056;
+  --color3 : #0874ba;
+  --color4 : #08c1ff;
+  --color5 : #0ffff8;
+  --rb1 : Violet;
+  --rb2 : rgb(149, 0, 255);
+  --rb3 : Blue;
+  --rb4 : rgb(0, 255, 0);
+  --rb5 : Yellow;
+  --rb6 : Orange;
+  --rb7 : Red;
+}
+
+body {
+  background-color: var(--color1);
+}
+
+#title {
+  text-align: center;
+  color: var(--color2);
+  text-transform: uppercase;
+  font-size: 6em;
+  font-family: "Knewave";
+  text-shadow: 5px 5px 0px var(--color4);
+  transform: skew(0, -6.7deg);
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+#description {
+  font-family: "Knewave";
+  font-size: 2.5em;
+  text-align: center;
+  max-width: 500px;
+  margin: 0 auto 2em;
+  padding: 1em;
+  line-height: 1.35em;
+  color: var(--color2);
+  text-shadow: 2px 2px 0px var(--color4);
+  transform: skew(0, -6.7deg);
+  border-bottom: 5px solid var(--color4);
+  border-top: 5px solid var(--color4);
+  border-radius: 50px;
+}
+
+.buttons {
+  text-align: center;
+  transform: skew(0, -6.7deg);
+}
+
+a {
+  color: var(--color4);
+  border: 3px solid var(--color4);
+  border-radius: 20px;
+  font-family: "Coda";
+  text-decoration: none;
+  padding: 10px 20px;
+  margin: 10px;
+  text-transform: uppercase;
+  font-size: 1.25em;  box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+  text-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+a:hover {
+  background: var(--color2);
+  color: var(--color1);
+  box-shadow: 5px 5px 5px gray;
+  animation-name: button;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes button {
+  0% {background-color: var(--rb1);}
+  14.28% {background-color: var(--rb2);}
+  28.56% {background-color: var(--rb3);}
+  42.84% {background-color: var(--rb4);}
+  57.12% {background-color: var(--rb5);}
+  71.4% {background-color: var(--rb6);}
+  85.68% {background-color: var(--rb7);}
+  100% {background-color: var(--rb1);}
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta lang="de" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8" />
+    <meta name="description" content="JB">
+    <meta name="msapplication-TileImage" content="https://tobixnator.ddns.net/data/icon.jpg">
+    <meta property="og:site_name" content="JB">
+    <meta property="og:title" content="JB">
+    <meta property="og:description" content="JB">
+    <meta property="og:image" itemprop="image" content="https://tobixnator.ddns.net/data/icon.jpg">
+    <meta property="og:type" content="website" />
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:image:width" content="300">
+    <meta property="og:image:height" content="300">
+    <meta property="og:url" content="https://tobixnator.ddns.net/jb/main.html">
+    <link rel="stylesheet" href="main.css" type="text/css">
+    <link rel="icon" href="jebaited.jpg" type="image/jpeg">
+    <title>JB</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-96GMLZFV42"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-96GMLZFV42');
+    </script>
+    <script data-ad-client="ca-pub-8790018561950034" async
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+
+    <script>
+        var shareButton = document.getElementById('#shareButton');
+
+        $(document).click(function (event) {
+            $('.invisible').css('display', 'none');
+            $('.flex').css('display', 'flex');
+            $('.block').css('display', 'block');
+            $('.inline').css('display', 'inline');
+            $("#video").prop('muted', false);
+            $('#video').trigger('play');
+        });
+
+        function openWhatsApp() {
+            window.open('whatsapp://send?text=https://tobixnator.ddns.net/jb/main.html');
+        }
+
+        function openWhatsAppWeb() {
+            window.open('https://web.whatsapp.com://send?text=https://tobixnator.ddns.net/jb/main.html');
+        }
+
+        function copyurl() {
+            navigator.clipboard.writeText("https://tobixnator.ddns.net/jb/main.html");
+        }
+
+
+    </script>
+
+</head>
+
+<body>
+    <h1 class="invisible">Tap on the screen</h1>
+    <video class="flex" id="video" preload="auto" muted playsinline autoplay loop>
+        <source src="jebaited.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <h2 class="block">Send this to your friends to completely JEBAIT them!</h2>
+
+    <ul class="flex" id="sharelist">
+        <li><button onclick="openWhatsApp()">Share to WhatsApp</button></li>
+        <li><button onclick="openWhatsAppWeb()">Share to WhatsApp Web</button></li>
+        <li><button onclick="copyurl()">Copy link</button></li>
+        <li><a target="_blank"
+                href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Ftobixnator.ddns.net%2Fjb%2Fmain.html">Share on
+                Facebook</a></li>
+        <li><a target="_blank"
+                href="https://twitter.com/intent/tweet?url=https%3A%2F%2Ftobixnator.ddns.net%2Fjb%2Fmain.html&text=Click%20me&hashtags=jebaited">Share
+                on Twitter</a></li>
+        <li><a target="_blank"
+                href="https://www.linkedin.com/sharing/share-offsite/&url=https%3A%2F%2Ftobixnator.ddns.net%2Fjb%2Fmain.html&title=Click%20me&summary=Click%20me%20for%20fun">Share
+                on LinkedIn</a></li>
+        <li><a target="_blank"
+                href="https://pinterest.com/pin/create/button/?url=https://tobixnator.ddns.net/jb/main.html&media=&description=Click%20me%20for%20fun">Share
+                on Pinterest</a>
+        </li>
+        <li><a target="_blank"
+                href="mailto:info@example.com?&subject=&cc=&bcc=&body=https://tobixnator.ddns.net/jb/main.html%0AClick%20me%20for%20fun">Share
+                to Email</a>
+        </li>
+    </ul>
+</body>
+
+</html>

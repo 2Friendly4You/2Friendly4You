@@ -1,0 +1,94 @@
+html {
+  background-color: #0080ff;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  scroll-behavior: smooth;
+  word-wrap: break-word;
+}
+
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#video {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.block {
+  display: none;
+  text-align: center;
+}
+
+.inline {
+  display: none;
+  text-align: center;
+}
+
+.flex {
+  display: none;
+  text-align: center;
+}
+
+.invisible {
+  text-align: center;
+}
+
+#sharelist {
+  list-style: none;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+ul#sharelist.flex {
+  margin: 0px;
+  padding: 0px;
+}
+
+#sharelist li {
+  border: black 1px solid;
+  margin: 2px;
+  padding: 5px;
+  border-radius: 15px;
+  background-color: honeydew;
+}
+
+#sharelist a,
+button {
+  color: black;
+  text-decoration: none;
+  border: none;
+  background-color: inherit;
+  font-size: inherit;
+  cursor: pointer;
+}
+
+#sharelist li:hover {
+  transition-duration: 0.2s;
+  transition-property: all;
+  transition-timing-function: ease-in-out;
+  transform: scale(1.2);
+  background-color: black;
+  color: white;
+}
+
+#sharelist a:hover,
+button:hover {
+  color: white;
+}
+
+@media only screen and (min-width: 1000px) {
+  html {
+    background-color: #0080ff;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+  }
+}

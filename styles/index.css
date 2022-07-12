@@ -1,0 +1,239 @@
+html {
+  background-color: #0080ff;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  scroll-behavior: smooth;
+  word-wrap: break-word;
+}
+
+body {
+  background-color: white;
+  border-color: black;
+  border-style: solid;
+  padding: 2px;
+  border-radius: 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#content {
+  padding: 1%;
+}
+
+#title {
+  text-align: center;
+  font-size: xx-large;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial;
+  border-radius: 20px;
+  margin-top: 2px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.navbar .active {
+  background-color: rgba(255, 0, 0, 0.678);
+}
+
+.projecttitle {
+  font-size: larger;
+  font-weight: bold;
+}
+
+.projects p {
+  margin: 0%;
+}
+
+.projects ul {
+  margin: 0%;
+}
+
+.downloadbtn {
+  background-color: DodgerBlue;
+  color: white;
+  padding: 5px 10px;
+  margin: 5px;
+  cursor: pointer;
+  font-size: medium;
+  border-radius: 50px;
+  border-style: none;
+  box-shadow: 5px 5px 8px grey;
+  transition: all .2s ease-in-out;
+
+}
+
+.downloadbtn:hover {
+  background-color: royalblue;
+  transform: scale(1.1);
+}
+
+#totopbtn {
+  position: fixed;
+  bottom: 10px;
+  right: 20px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+#totopbtn:hover {
+  background-color: #555;
+}
+
+#footer {
+  background-color: #333;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-radius: 20px;
+  margin-bottom: 2px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+#footerTitle {
+  margin: 1px;
+  color: white;
+  text-align: center;
+}
+
+#footerTitle a {
+  color: white;
+  text-decoration: none;
+}
+
+table {
+  border-collapse: collapse;
+  border: 1px solid black;
+  overflow: auto;
+  width: 80%;
+}
+
+td {
+  border: 1px solid black;
+  padding: 5px;
+  text-align: center;
+}
+
+th {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+  background-color: lightblue;
+}
+
+tr:nth-child(even) {
+  background-color: #c2c2c2;
+}
+
+.grow {
+  transition: all .2s ease-in-out;
+}
+
+.grow:hover {
+  transform: scale(1.08);
+}
+
+.skip-navigation {
+  background: red;
+  height: auto;
+  left: 2%;
+  padding: 8px;
+  position: absolute;
+  transform: translateY(-200%);
+  transition-duration: .3s;
+  transition-property: all;
+  transition-timing-function: ease-in-out;
+  text-decoration: none;
+  color: white;
+}
+
+.skip-navigation:focus {
+  transform: translateY(0%);
+}
+
+.flex { 
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+@media only screen and (min-width: 1000px) {
+  html {
+    background-color: #0080ff;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+  }
+}
