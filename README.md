@@ -11,7 +11,7 @@
 
 - 📫 How to reach me **github@tobiasrick.de**
 
-- ⚡ Fun fact **I think I am good at programming**
+- ⚡ Fun fact **The DNA of humans and bananas is 50% identical**
 
 
 <h3 align="left">Languages and Tools:</h3>
